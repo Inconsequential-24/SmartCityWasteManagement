@@ -131,7 +131,7 @@ contract SmartWasteManagement {
 
     // Internal function to calculate coupon amount based on waste type and quantity
     function calculateCouponAmount(WasteType _wasteType, uint _quantity) internal pure returns (uint) {
-        // Simplified logic - adjust based on your requirements
+        // adjust based on your requirements
         if (_wasteType == WasteType.Organic) {
             return _quantity * 2; // 2 coupons per unit for organic waste
         } else {
